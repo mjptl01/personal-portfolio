@@ -1,0 +1,692 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Mihir Patel | Software Developer</title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/mihir.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open Mihir's resume in a new tab" href="https://mjptl.com/assets/resume/Mihirkumar_Patel_IT.pdf"
+          target="_blank" class="waves-effect waves-dark teal-text"><i
+            class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Mihir Patel</a><span
+        class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Mihir's Resume in a new tab" href="#" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Mihir Patel.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving complex and
+                challenging real-world problems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/mjptl/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/mjptl01" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          Hello! I'm Mihir Patel, a passionate and versatile Full Stack Java Developer with a keen eye for innovation
+          and a love
+          for creating robust, scalable solutions. My journey into the world of programming began with a
+          curiosity-driven
+          exploration of Java, and since then, I've been on an exciting quest to master the art of full-stack
+          development.
+        </p>
+        <p>
+        <ul>
+          <li><b>Languages:</b> C, Java, JavaScript, Python, Bash</li>
+          <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
+          <li><b>Web Technologies:</b> NodeJS, NPM, JSP, HTML, CSS, JSON, Bootstrap, Angular</li>
+          <li><b>Enterprise APIs:</b> Spring Boot, Spring Security, Spring Data JPA</li>
+          <li><b>IDEs & Tools:</b> VS Code, IntelliJ IDEA, Maven, Jira, Postman, GitHub, Dynatrace, Splunk</li>
+          <li><b>Cloud Technologies:</b> Docker, AWS, GCP, Heroku, Jenkins, PCF, OCP4</li>
+        </ul>
+        </p>
+        <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering,
+          which
+          provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Experience 1 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="" target="_blank"><img alt="BlakCreek logo" src="/assets/img/BlakCreek.jpg"
+                    class="responsive-img center-block" /></a>
+              </div>
+
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="" target="_blank"
+                      class="teal-text hoverline"><b>BlakCreek</b></a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Full-Stack Software Developer</div>
+            <ul>
+              <li>
+                Involved in Software Development Life Cycle (SDLC) including requirement gathering, modelling, analysis,
+                architecture design, prototyping, developing, and testing.
+              </li>
+              <li>
+                Created Front-end UI applications using HTML, CSS, JavaScript, Angular, and Angular Material.
+              </li>
+              <li>Worked on Swagger API documentation to create RESTful web service architecture.</li>
+              <li>Developed Back-end RESTful web application using Spring Boot and implemented CRUD operation to the
+                databases.</li>
+              <li>Implement MongoDB and PostgreSQL databases using Spring Data JPA.</li>
+              <li>Integrate JWT and OAuth security for login-registration services using Spring Security.</li>
+              <li>Implemented end-to-end test cases for Spring Boot application using Junit, MockMVC, Mockito, and
+                Spring Boot Test.</li>
+              <li>Perform Postman collection to test REST API for HTTP requests such as GET, POST, and PUT.</li>
+              <li>Used Git/GitHub version control tools to maintain development and production branches.</li>
+              <li>Created services to consume REST APIs and communicate between components using Dependency Injection
+                provided by Angular.</li>
+              <li>Used Jira agile project management tool for planning, bug tracking, and issue tracking.</li>
+              <li>Build CI/CD pipeline using Docker and Jenkins to streamline development, testing, and deployment
+                processes for Spring Boot application.</li>
+              <li>Involved in deploying Spring Boot Applications to PCF and OCP4 cloud servers.</li>
+              <li>Monitor real-time application performance and logs using Dynatrace and Splunk.</li>
+              <li>
+                <b>Tools:</b> Java, Spring Boot, Swagger API, AngularJS, PostgreSQL, MongoDB, Dynatrace, RedHat, OCP4,
+                PCF, Splunk
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>May 2023 - Present | Vaughan, ON</span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.sheridancollege.ca" target="_blank"><img alt="Sheridan logo"
+                    src="/assets/img/sheridan_logo.jpg" class="responsive-img center-block" /></a>
+              </div>
+
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.sheridancollege.ca" target="_blank"
+                      class="teal-text hoverline"><b>Sheridan College</b></a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Applied Computing Tutor</div>
+            <ul>
+              <li>
+                Provide support to students to troubleshoot technical issues related to computer software.
+              </li>
+              <li>
+                Tutored students on the concepts of Java, C/C++, and Python as well as Database Management, Web
+                Development, and Networking.
+              </li>
+              <li>
+                Assisted students in understanding the best practices of programming and helped them clear their doubts
+                primarily in Java.
+              </li>
+              <li>Worked on side projects with the professor to optimize the existing services at Sheridan College using
+                the proper concepts of Data Structures and Algorithms.</li>
+              <li>Worked on monthly reports for the Applied Computing Center and consolidated the report for all
+                tutoring centers.</li>
+              <li>
+                <b>Tools:</b> SharePoint, Java, C, Python
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>May 2022 - Present | Brampton, ON</span>
+          </div>
+        </div>
+
+        <!-- Fourth Section: Projects -->
+        <section id="projects" class="section scrollspy">
+          <h3 class="page-title white-text teal">Projects</h3>
+          <div class="container">
+            <div class="row">
+              <!-- Rock Paper Scissors Game Java -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Rock Paper Scissors Game" src="/assets/img/rock-paper-scissors-156171_1920.png"
+                      style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Rock Paper Scissors Game<i
+                        class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      Java Console Application
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+
+                    <span class="card-title grey-text"><small>Accomplishments</small><i
+                        class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> Java, IntelliJ IDEA</li>
+                      <li>A simple Rock, Paper, and Scissors game in console.</li>
+
+                    </ul>
+                    <div class="card-action">
+                      <!-- <a aria-label="Visit " href="#" target="_blank"
+                        data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-external-link"></i></a> -->
+                      <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mjptl01/rps-game-java"
+                        target="_blank" data-position="top" data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Snake Game Python Project -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Snake Game" src="/assets/img/snakegame.png" style="height: 100%; width: 100%"
+                      class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">A Snake Game<i
+                        class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      Desktop Application using Python
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text"><small>Accomplishments</small><i
+                        class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> Python, Tkinter GUI toolkit, VS Code</li>
+                      <li>It is a simple desktop snake game based on python, which we were used to play in 90s Nokia
+                        phones.</li>
+
+                    </ul>
+                    <div class="card-action">
+                      <!-- <a aria-label="Visit " href="#" target="_blank"
+                        data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-external-link"></i></a> -->
+                      <a aria-label="Visit the GitHub repo for  project"
+                        href="https://github.com/mjptl01/snake-game-python" target="_blank" data-position="top"
+                        data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Student Management System Spring Boot Application -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Student Dashboard" src="/assets/img/project-blog-logo.jpg"
+                      style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Student Dashboard<i
+                        class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      Web-App Spring Boot Application
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title teal-text"><small>Accomplishments</small><i
+                        class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> HTML, CSS, Bootstrap, JSP, Java, Spring Boot, MySQL</li>
+                      <li>Student Management System web-app using Java, Spring Boot, HTML, Thymeleaf, and MySQL
+                        Database, which implements simple CRUD (Create, Read, Update, Delete) operation for the list of
+                        students.</li>
+
+                    </ul>
+                    <div class="card-action">
+                      <!-- <a aria-label="Visit Blog website" href="#" target="_blank" data-position="top"
+                        data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-external-link"></i></a> -->
+                      <a aria-label="Visit the GitHub repo for  project"
+                        href="https://github.com/mjptl01/student-management-system" target="_blank" data-position="top"
+                        data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calculator Android App -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Calculator Android App" src="/assets/img/calculatorapp.jpg"
+                      style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Calculator Android App<i
+                        class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      Android App using Java
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title teal-text"><small>Accomplishments</small><i
+                        class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> Java, XML, Gradle</li>
+                      <li>It is a simple BODMAS Calculator Android Application.</li>
+
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit the GitHub repo for  project"
+                        href="https://github.com/mjptl01/Calculator-Android-App" target="_blank" data-position="top"
+                        data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Fifth Section: Skills -->
+        <section id="skills" class="section scrollspy">
+          <h3 class="page-title white-text teal">Skills</h3>
+          <div class="container">
+            <!-- Languages -->
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Languages</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/c-programming-300.png" class="responsive-img" />C
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/java-300.png" class="responsive-img" />Java
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Databases -->
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Databases</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-mongodb-300.png" class="responsive-img" />MongoDB
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-postgres-300.png" class="responsive-img" />PostgreSQL
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- Libraries and Frameworks -->
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Libraries & Frameworks</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/nodejs.png" class="responsive-img" />NodeJS
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-npm-300.png" class="responsive-img" />NPM
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-spring-boot-300.png" class="responsive-img" />Spring Boot
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-angular-300.png" class="responsive-img" />Angular
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- IDEs & Tools -->
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">IDEs & Tools</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/github.png" class="responsive-img" />GitHub
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/intellij-idea-300.png" class="responsive-img" />IntelliJ
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/icons8-vs-code-300.png" class="responsive-img" />VS Code
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/icons8-docker-300.png" class="responsive-img" />Docker
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/icons8-jira-300.png" class="responsive-img" />Jira
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/icons8-jenkins-300.png" class="responsive-img" />Jenkins
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="GitHub" src="/assets/img/icons8-splunk-300.png" class="responsive-img" />Splunk
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cloud Technologies -->
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Cloud Technologies</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-amazon-web-services-300.png" class="responsive-img" />AWS
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-openshift-300.png" class="responsive-img" />OpenShift
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-firebase-300.png" class="responsive-img" />Firebase
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="/assets/img/icons8-heroku-300.png" class="responsive-img" />Heroku
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+        <!-- Seventh Section: Education -->
+        <section id="education" class="section scrollspy">
+          <h3 class="page-title white-text teal">Education</h3>
+          <div class="container">
+            <div class="row">
+              <!-- Education -->
+              <div class="col s12 m6 l6">
+                <div class="card">
+                  <div class="card-content">
+                    <p>
+                      <span class="card-title"><a href="https://www.sheridancollege.ca/" target="_blank"
+                          class="teal-text hoverline"><b>Sheridan College</b></a></span>
+                    </p>
+                    <p class="brown-text">ON, Canada</p>
+                    <p>
+                      <b>Degree: </b>Computer Engineering Technology
+                      <br>
+                      <b>CGPA: </b>3.2/4.0
+                    </p>
+
+                    <ul>
+                      <p>
+                        <b>Relevant Courseworks:</b>
+                      <ul>
+                        <li>OOP - Java</li>
+                        <li>Applied C Programming</li>
+                        <li>Python</li>
+                        <li>Android App Development</li>
+                        <li>IoT</li>
+                        <li>AI/ML</li>
+                        <li>Linux/UNIX OS</li>
+                        <li>Database Design & Management</li>
+                      </ul>
+                      </p>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- Eight Section: Contact -->
+        <section id="contact" class="section scrollspy full-height">
+          <h3 class="page-title white-text teal">Contact</h3>
+          <div class="container">
+            <!-- <p>
+              <a aria-label="Call Mihir" data-position="top" data-tooltip="Call Mihir"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-phone"></i><a aria-label="Call Mihir">+19999999999</a></a>
+            </p> -->
+            <p>
+              <a aria-label="Email Mihir" href="mailto:mihirpatel542001@gmail.com" target="_blank" data-position="top"
+                data-tooltip="Email Mihir"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-envelope"></i><a aria-label="Email Mihir" href="mailto:mihirpatel542001@gmail.com"
+                  class="hoverline">mihirpatel542001@gmail.com</a></a>
+            </p>
+            <p>
+              <a aria-label="View Mihir on GitHub" href="http://github.com/mjptl01" target="_blank" data-position="top"
+                data-tooltip="View Mihir on GitHub"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-github"></i><a aria-label="Mihir on Github" href="http://github.com/mjptl01"
+                  class="hoverline" target="_blank">github.com/mjptl01</a></a>
+            </p>
+            <p>
+              <a aria-label="View Mihir on LinkedIn" href="http://linkedin.com/in/mjptl" target="_blank"
+                data-position="top" data-tooltip="View Mihir on LinkedIn"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-linkedin"></i><a aria-label="Mihir on LinkedIn" href="http://linkedin.com/in/mjptl"
+                  class="hoverline" target="_blank">linkedin.com/in/mjptl</a></a>
+            </p>
+          </div>
+        </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["Java Developer", "Optimist ", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
